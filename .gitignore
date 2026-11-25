@@ -1,0 +1,30 @@
+# =============================================================================
+# Responsible AI Security & Academic Compliance Exclusions
+# Raw red-team exploit payloads and internal course documents are intentionally
+# excluded from version control.
+# =============================================================================
+attack_payloads/
+*payload*
+*.pdf
+*.xlsx
+*.docx
+
+# Runtime Audit Logs & Local Data
+audit_log.jsonl
+*.log
+
+# Python Bytecode & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Environment & Editor Configurations
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

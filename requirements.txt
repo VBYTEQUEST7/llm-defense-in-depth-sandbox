@@ -1,0 +1,14 @@
+# =============================================================================
+# requirements.txt — LLM Security Sandbox (Defense-in-Depth)
+# =============================================================================
+# Setup:
+#   pip install -r requirements.txt
+#
+# Local LLM Runtime Prerequisite:
+#   1. Install Ollama: https://ollama.com
+#   2. Pull local model: ollama pull qwen2.5:1.5b
+#   3. Start runtime:    ollama serve
+# =============================================================================
+
+flask>=3.0.0
+requests>=2.31.0
